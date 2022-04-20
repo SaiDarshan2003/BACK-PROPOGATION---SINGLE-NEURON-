@@ -2,7 +2,6 @@
 ```
 ###AIM:
 To write a python program to perform Back Propagation with Single Neuron.
-
 ###EQUIPMENTS REQUIRED:
 Hardware – PCs
 Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
@@ -55,4 +54,7 @@ print(w)
 
 ###RESULT:
 Thus the Back Propagation with Single Neuron was successfully implemented using python programming.
+<<<<<<< HEAD
 ```
+=======
+>>>>>>> 325deba332f9f4d575a4df22a8caf5c28265cb47
