@@ -1,24 +1,18 @@
 ### EX NO: 04
 ### DATE : 11/04/2022
-
-# <p align='center'> BACK-PROPOGATION---SINGLE-NEURON </p>
+# <p align='center'> BACKPROPOGATION OF A SINGLE NEURON </p>
 ## Aim:
 To write a python program to perform binary classification.
-
 ## Equipments Required:
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner /Google Colab
-
 ## Related Theoritical Concept:
 ### Training Dataset:
 Training data is an extremely large dataset that is used to teach a machine learning model. Training data is used to teach prediction models that use machine learning algorithms how to extract features that are relevant to specific business goals. For supervised ML models, the training data is labeled. The data used to train unsupervised ML models is not labeled. Training data is also known as a training set, training dataset or learning set.
-
 ### Test data:
 Test data is data which has been specifically identified for use in tests, typically of a computer program. Some data may be used in a confirmatory way, typically to verify that a given set of input to a given function produces some expected result.
-
 ### Backward propagation:
 Backpropagation (backward propagation) is an important mathematical tool for improving the accuracy of predictions in data mining and machine learning. Essentially, backpropagation is an algorithm used to calculate derivatives quickly.
-
 ## Algorithm:
 ### Step 1:
 Inputs X, arrive through the preconnected path.
@@ -31,14 +25,10 @@ Calculate the error in the outputs.
 ### Step 5:
 Travel back from the output layer to the hidden layer to adjust the weights such that the error is decreased.
 Keep repeating the process until the desired output is achieved.
-
 ## Program:
 ```
-/*
-Program to implement random classification.
 Developed by   :Sai Darshan G
 Register Number :  212221240047
-*/
 import numpy as np
 i=1.5    
 w_o=0.8  
@@ -61,8 +51,8 @@ print(" ")
 print(w)
 ```
 
+
 ## Output:
 ![output](1.jpg)
-
 ## Result:
 Thus the Back Propagation with Single Neuron was successfully implemented using python programming.
