@@ -1,6 +1,6 @@
 ### EX NO: 04
 ### DATE : 11/04/2022
-# <p align='center'> BACKPROPOGATION OF A SINGLE NEURON </p>
+# <p align='center'> BACK PROPOGATION OF A SINGLE NEURON </p>
 ## Aim:
 To write a python program to perform binary classification.
 ## Equipments Required:
@@ -23,8 +23,7 @@ Calculate the output for every neuron from the input layer, to the hidden layers
 ### Step 4:
 Calculate the error in the outputs.
 ### Step 5:
-Travel back from the output layer to the hidden layer to adjust the weights such that the error is decreased.
-Keep repeating the process until the desired output is achieved.
+Travel back from the output layer to the hidden layer to adjust the weights such that the error is decreased.Keep repeating the process until the desired output is achieved.
 ## Program:
 ```
 Developed by   :Sai Darshan G
@@ -50,6 +49,10 @@ print(a)
 print(" ")
 print(w)
 ```
+<br>
+</br>
+<br>
+</br>
 
 
 ## Output:
